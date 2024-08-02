@@ -1,0 +1,499 @@
+/*  nav part */
+.mainFlex{
+  display: flex;
+}
+
+.navIconButton{
+  border: none;
+  float: right;
+  font-size: larger;
+  margin-top: -70px;
+  margin-right: 30px;
+}
+.bigImage{
+  width: 75%;
+  box-sizing: border-box;
+  border: 20px solid rgb(231, 220, 220);
+  border-radius: 20px;
+}
+.navImage{
+  
+  box-sizing: border-box;
+  margin-left: 5%;
+  border-radius: 20px;
+}
+.navList{
+  display: flex;
+  gap: 50px;
+  margin-top: 30px;
+  margin-left: 100px;
+  align-items: center;
+  border-bottom: 1px solid rgb(180, 167, 167);
+  padding: 10px;
+  cursor: pointer;
+ 
+}
+
+li{
+  list-style-type: none;
+  font-weight: 600;
+ 
+}
+
+/* About part */
+
+.AboutPart{
+  margin-left: 5%;
+  margin-top: 50px;
+}
+.AboutPara{
+  font-size: larger;
+  word-break: keep-all;
+  color: rgb(58, 55, 55);
+  padding: 10px;
+}
+.aboutImage1{
+  margin-left: 7%;
+  margin-top: 20px;
+}
+.aboutImage2{
+  margin-top: 30px;
+}
+.gridContainer{
+  display: grid;
+    grid-template-columns: auto auto auto  ;
+    text-align: center;
+    width: 1000px;
+}
+  .item{
+    border: 0.5px solid rgb(116, 109, 109);
+    text-align: center;
+}
+
+/* Tickets Part */
+
+.registerLink{
+  text-decoration: none;
+  color: white;
+  
+}
+a{
+  text-decoration: none;
+}
+.ticketHead{
+  margin-left: 5%;
+  margin-top: 5%;
+  margin-bottom: 60px;
+}
+
+.freeTicketPart1{
+  border: 1px solid rgb(163, 148, 148);
+  border-radius: 5px;
+  width: 50%;
+  height: 300px;
+  padding: 10px;
+  background-color: rgb(238, 229, 213);
+  margin-bottom: 20px;
+  margin-left: 15%;
+  
+  
+}
+.freeTicketPart3{
+  border: 1px solid rgb(163, 148, 148);
+  border-radius: 5px;
+  width: 50%;
+  height: 360px;
+  padding: 10px;
+  background-color: rgb(238, 229, 213);
+  margin-bottom: 20px;
+  margin-left: 15%;
+  
+}
+.freeTicketPart4{
+  border: 1px solid rgb(163, 148, 148);
+  border-radius: 5px;
+  width: 50%;
+  height: 350px;
+  padding: 10px;
+  background-color: rgb(238, 229, 213);
+  margin-bottom: 20px;
+  margin-left: 15%;
+  
+}
+.freeTicketPart2{
+  border: 1px solid rgb(163, 148, 148);
+  border-radius: 5px;
+  width: 50%;
+  height: 300px;
+  padding: 10px;
+  background-color: rgb(238, 229, 213);
+  margin-bottom: 20px;
+  margin-left: 15%;
+  
+}
+.locationPart{
+  color: blue;
+  cursor: pointer;
+}
+.registerButton{
+  margin-left: 60%;
+  width: 90px;
+  height: 40px;
+  background-color: black;
+  color: white;
+ border-radius: 5px;
+ }
+.pFree{
+  font-size: 40px;
+  margin-top: 30px;
+}
+.donationregisterButton{
+  margin-left: 80%;
+  width: 90px;
+  height: 40px;
+  background-color: black;
+  color: white;
+ border-radius: 5px;
+}
+ 
+ 
+/* speaker section part */
+
+.speakerPart{
+  margin-left: 5%;
+  margin-top: 100px;
+}
+.speakerImagePart{
+  display: flex;
+  gap: 20px;
+  
+}
+.brucePart{
+  border: 1px solid rgb(139, 129, 129);
+  width: 30%;
+  padding: 5px;
+  border-radius: 5px;
+}
+.bruce{
+  margin-top: -5px;
+}
+.iconPart1{
+  margin-right: 15px;
+}
+.darkPart{
+  border: 1px solid rgb(139, 129, 129);
+  width: 30%;
+  padding: 5px;
+  border-radius: 5px;
+}
+.dark{
+  margin-top:-5px ;
+}
+
+
+/* workshop section part */
+
+.workShopPart{
+  margin-left: 5%;
+  margin-top: 100px;
+}
+.workShopImagePart{
+  display: flex;
+  gap: 10px;
+  
+}
+.workshopPart1{
+  border: 1px solid rgb(112, 106, 106);
+  padding: 10px;
+  border-radius: 5px;
+}
+.viewButton{
+  background-color: black;
+  color: white;
+  height: 30px;
+  float: right;
+}
+
+/* event sponsor part */
+
+.eventSponsor{
+  margin-left: 5%;
+  margin-top: 100px;
+  margin-bottom: 10%;
+}
+
+/* Login Part */
+
+
+.loginPart{
+  
+  border: 1px solid black;
+  width: 40%;
+  text-align: center;
+  border-radius: 5px;
+  float: right;
+  margin-top: 10px;
+  
+}
+.email{
+  margin-left: -220px;
+}
+.emailLoginInput{
+  width: 50%;
+  height: 30px;
+  margin-top: -30px;
+}
+.password{
+  margin-left: -200px;
+}
+.passwordLogin{
+  width: 50%;
+  height: 30px;
+  margin-top: -30px;
+}
+.signinButton{
+  width: 50%;
+  height: 40px;
+  background-color: rgb(79, 31, 100);
+  color: white;
+  border: none;
+  border-radius: 5px;
+
+}
+.requestButton{
+  width: 50%;
+  height: 40px;
+  color: rgb(79, 31, 100);
+}
+.signIn{
+  text-decoration:none ;
+  color: brown;
+}
+
+
+/* signup Part */
+
+.signupPart{
+  border: 1px solid black;
+  width: 40%;
+  text-align: center;
+  border-radius: 5px;
+  float: right;
+}
+.signupEmail{
+  margin-left: -220px;
+}
+.emailSignupInput{
+  width: 50%;
+  height: 30px;
+  margin-top: -30px;
+}
+.signupPassword{
+  margin-left: -200px;
+}
+.passwordSignup{
+  width: 50%;
+  height: 30px;
+  margin-top: -30px;
+}
+.confirmPasswordSignup{
+  margin-left: -150px;
+}
+.confirmPasswordSignup1{
+  width: 50%;
+  height: 30px;
+  margin-top: -30px;
+}
+
+.signupButton{
+  width: 50%;
+  height: 40px;
+  background-color: rgb(79, 31, 100);
+  color: white;
+  border: none;
+  border-radius: 5px;
+
+}
+.signupRequestotp{
+  width: 50%;
+  height: 40px;
+  color: rgb(79, 31, 100);
+
+}
+
+/* Register Page part */
+
+/* .registerTopPart{
+  display: flex;
+  gap: 50px;
+} */
+.registerTop{
+  margin-left: 5%;
+}
+
+.leftArrow{
+  cursor: pointer;
+  margin-right: 170px;
+  color: black;
+  
+}
+.calenderPart{
+  margin-left: 300px;
+}
+.calenderIcon{
+  margin-right: 10px;
+}
+
+  
+
+.freeTicketPart11{
+  border: 1px solid rgb(163, 148, 148);
+  border-radius: 5px;
+  width: 60%;
+  height: 300px;
+  padding: 10px;
+  background-color: rgb(238, 229, 213);
+  margin-bottom: 20px;
+  margin-left: 5%;
+  
+  
+}
+.freeTicketPart31{
+  border: 1px solid rgb(163, 148, 148);
+  border-radius: 5px;
+  width: 60%;
+  height: 330px;
+  padding: 10px;
+  background-color: rgb(238, 229, 213);
+  margin-bottom: 20px;
+  margin-left: 5%;
+  
+}
+.freeTicketPart41{
+  border: 1px solid rgb(163, 148, 148);
+  border-radius: 5px;
+  width: 60%;
+  height: 320px;
+  padding: 10px;
+  background-color: rgb(238, 229, 213);
+  margin-bottom: 20px;
+  margin-left: 5%;
+  
+}
+.freeTicketPart21{
+  border: 1px solid rgb(163, 148, 148);
+  border-radius: 5px;
+  width: 60%;
+  height: 300px;
+  padding: 10px;
+  background-color: rgb(238, 229, 213);
+  margin-bottom: 20px;
+  margin-left: 5%;
+  
+}
+
+.ticketSearch{
+  width: 30%;
+  height: 30px;
+  border-radius: 5px;
+  margin-left: 300px;
+  margin-bottom: 10px;
+  margin-right: 5px;
+}
+.ticketSearchButton{
+  height: 25px;
+  background-color: black;
+  color: white;
+  border-radius: 5px;
+}
+.registerButton1{
+  margin-left: 60%;
+  width: 100px;
+  height: 40px;
+  border: none;
+  background-color: rgb(238, 229, 213);
+  font-size: x-large;
+}
+.donationregisterButton1{
+  margin-left: 80%;
+  width: 90px;
+  height: 40px;
+  border: none;
+  background-color: rgb(238, 229, 213);
+  font-size: x-large;
+}
+.minusButton{
+  font-size:large;
+  color: black;
+  margin-right: 5px;
+  background-color: rgb(238, 229, 213);
+}
+.plusButton{
+  font-size:large;
+  color: black;
+  margin-left: 5px;
+  background-color: rgb(238, 229, 213);
+}
+.ticketSummery{
+  border: 1px solid black;
+  width: 25%;
+  padding: 10px;
+  border-radius: 5px;
+  float: right;
+  margin-top: -1400px;
+  background-color: rgb(238, 229, 213);
+}
+.proceedButton{
+  width: 50%;
+  height: 40px;
+  background-color: black;
+  color: white;
+  margin-left: 80px;
+  border-radius: 5px;
+}
+  
+  
+ /* Second Flex  */
+
+ .secondFlexPart{
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 10px;
+ }
+ .cameraIcon{ 
+  display: flex;
+  gap: 100px;
+ }
+ .buynowButton{
+  margin-top: 30px;
+  width: 320px;
+  height: 40px;
+  align-items: center;
+  
+  background-color: black;
+  color: white;
+  border-radius: 5px;
+  border: none;
+ }
+ .officialButton{
+  width: 320px;
+  height: 40px;
+  align-items: center;
+  border-radius: 5px;
+  color: blue;
+ }
+ .hostMain{
+  border: 1px solid black;
+  padding: 10px;
+  border-radius: 5px;
+ }
+ .hostPart{
+  display: flex;
+  gap: 15px;
+  
+ }
+ .hostIcons{
+  display: flex;
+  gap: 20px;
+ }
+
