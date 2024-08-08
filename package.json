@@ -1,6 +1,5 @@
 {
   "name": "konfhub",
-  "homepage": "http://vishalvilla1994/Konfhub-ticket-system",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
